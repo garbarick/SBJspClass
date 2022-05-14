@@ -1,0 +1,31 @@
+<idea-plugin>
+    <id>SBJspClass</id>
+    <name>SBJspClass</name>
+    <vendor url="http://serbis.net.ru" email="serbis@gmail.com">Serbis</vendor>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <virtualFileSystem id="com.netcracker.jspclass.vfs.JspVirtualFileSystem"
+                           implementationClass="com.netcracker.jspclass.vfs.JspVirtualFileSystem"
+                           key="jspclass"/>
+        <internalFileTemplate name="Jsp File"/>
+    </extensions>
+
+    <applicationListeners>
+        <listener class="com.netcracker.jspclass.listeners.ProjectManagerListener"
+                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
+        <listener class="com.netcracker.jspclass.listeners.JspFileListener"
+                  topic="com.intellij.openapi.fileEditor.FileEditorManagerListener"/>
+    </applicationListeners>
+
+    <actions>
+        <action id="com.netcracker.jsp.action.ToggleJspClass"
+                icon="com.netcracker.jspclass.Icons.ToggleJspClass"
+                class="com.netcracker.jspclass.action.ToggleJspClass"
+                text="Toggle Jsp/Class">
+            <add-to-group anchor="after" group-id="EditorPopupMenu" relative-to-action="CutCopyPasteGroup"/>
+        </action>
+    </actions>
+
+</idea-plugin>
