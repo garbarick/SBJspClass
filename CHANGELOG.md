@@ -1,10 +1,12 @@
-<!-- Keep a Changelog guide -> https://keepachangelog.com -->
-
 # SBJspClass Changelog
 
+## [1.12.2]
+### Fixed
+- decrease low IDEA version
+- remove extra template registration
 ## [1.12.1]
 ### Added
-- Add "Jsp File" template
+- "Jsp File" template
 ## [1.12.0]
-### Added
-- Initial
+### Modified
+- Migrate to Kotlin

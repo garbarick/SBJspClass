@@ -9,7 +9,6 @@
         <virtualFileSystem id="com.netcracker.jspclass.vfs.JspVirtualFileSystem"
                            implementationClass="com.netcracker.jspclass.vfs.JspVirtualFileSystem"
                            key="jspclass"/>
-        <internalFileTemplate name="Jsp File"/>
     </extensions>
 
     <applicationListeners>
