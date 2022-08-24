@@ -1,5 +1,8 @@
 # SBJspClass Changelog
 
+## [1.12.3]
+### Fixed
+- convert "init" comment after IDEA format
 ## [1.12.2]
 ### Fixed
 - decrease low IDEA version

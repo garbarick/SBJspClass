@@ -2,7 +2,7 @@
 
 ![logo](/src/main/resources/META-INF/pluginIcon.svg)
 
-Supported IDEA versions: 201 - 223.*
+Supported IDEA versions: 201 - *
 
 <!-- Plugin description -->
 Edit jsp files as java Class

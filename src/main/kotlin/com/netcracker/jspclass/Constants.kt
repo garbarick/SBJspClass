@@ -7,4 +7,5 @@ object Constants {
     val JAVA = "java"
     val JSP = "jsp"
     val PROTOCOL = "jspclass"
+    val NEW_LINE = "\r\n"
 }
