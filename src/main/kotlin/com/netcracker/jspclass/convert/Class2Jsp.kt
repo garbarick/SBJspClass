@@ -8,7 +8,7 @@ import com.netcracker.jspclass.Constants
 class Class2Jsp {
     companion object {
         private val classStart = Replacement(
-            "\\s*(((private|public|static|final)\\s*?)*class\\s*.+)", "<%!" + Constants.NEW_LINE + "$1"
+            "(((private|public|static|final)\\s*?)*class\\s*.+)", "<%!" + Constants.NEW_LINE + "$1"
         )
 
         private val initPage = Replacement(

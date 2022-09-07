@@ -7,6 +7,13 @@ public class Test1
     private PageContext pageContext;
     private JspWriter out;
 
+    public class SubTest1
+    {
+        public SubTest1()
+        {
+        }
+    }
+
     public Test1(PageContext pageContext)
     {
         this.pageContext = pageContext;
